@@ -1,4 +1,9 @@
 SwaggerDocsSample::Application.routes.draw do
+
+  match '/properties/:id', to: 'properties#show', via: 'get'
+  match '/users', to: 'users#index', via: 'get'
+  match '/group/:id/members', to: 'groups#index', via: 'get'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
