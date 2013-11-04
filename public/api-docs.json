@@ -1,0 +1,1 @@
+{"apiVersion":"1.0","swaggerVersion":"1.2","basePath":"/","apis":[{"path":"properties.{format}","description":"Properties"},{"path":"users.{format}","description":"Users"},{"path":"groups.{format}","description":"Groups"}]}

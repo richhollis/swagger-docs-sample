@@ -1,0 +1,1 @@
+{"apiVersion":"1.0","swaggerVersion":"1.2","basePath":"/","resourcePath":"users","apis":[{"path":"users","operations":[{"summary":"Fetches all users","responseMessages":[{"code":401,"message":"Unauthorized"},{"code":406,"message":"Not Acceptable"}],"method":"get","nickname":"Users#index"}]}]}
